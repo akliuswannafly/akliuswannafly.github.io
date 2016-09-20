@@ -13,3 +13,9 @@ body {
   top: 40%;
 }
 
+.core hr {
+  color: bisque;
+  border: 3px solid;
+  border-radius: 50%;
+  width: 10%
+}
