@@ -1,0 +1,15 @@
+body {
+  color: #000;
+  background: #fff;
+  font-family: Georgia, Palatino, serif;
+  vertical-align: middle;
+  height: 1000px;
+}
+
+.core {
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  top: 40%;
+}
+
