@@ -1,6 +1,5 @@
 body {
-  color: #000;
-  background: #fff;
+  background-color: seashell;
   font-family: Georgia, Palatino, serif;
   vertical-align: middle;
   height: 1000px;
@@ -8,7 +7,7 @@ body {
 
 .core {
   text-align: center;
-  color: gray;
+  color: indianred;
   font-size: 50px;
   position: relative;
   top: 40%;
