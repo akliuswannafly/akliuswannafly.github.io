@@ -1,0 +1,32 @@
+body {
+  background-color: blueviolet;
+  font-family: Georgia, Palatino, serif;
+  vertical-align: middle;
+  height: 1000px;
+}
+
+.core {
+  text-align: center;
+  color: indianred;
+  font-size: 50px;
+  position: relative;
+  top: 40%;
+}
+
+.core hr {
+  color: bisque;
+  border: 3px solid;
+  border-radius: 50%;
+  width: 10%
+}
+
+.hah {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
