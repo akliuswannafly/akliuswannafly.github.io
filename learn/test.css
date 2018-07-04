@@ -1,0 +1,25 @@
+body {
+  background-color: linen;
+  vertical-align: middle;
+  text-align: center;
+}
+
+h1 {
+  color: lightseagreen;
+}
+
+p {
+  color: lightcoral;
+  font-size: 28px;
+}
+
+button {
+  background: #4aca6d;
+  font-size: 14px;
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  width: 78px;
+  height: 29px;
+  cursor: pointer;
+}

@@ -1,17 +1,14 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="./test.css">
+    <script type="text/javascript" src="./test.js"></script>
+  </head>
   <body>
     <h1>Give me a number!</h1>
     <p id="roll">
       Ready!
     </p>
-    <script>
-      function myRandom() {
-        x = document.getElementById("roll");
-        num = Math.round(Math.random()*6);
-        x.innerHTML = num;
-      }
-    </script>
     <button type="button" onclick="myRandom()">Roll!</button>
   </body>
 </html>
