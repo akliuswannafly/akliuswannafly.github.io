@@ -23,3 +23,8 @@ button {
   height: 29px;
   cursor: pointer;
 }
+
+iframe {
+  height: 500px;
+  width: 49%;
+}
