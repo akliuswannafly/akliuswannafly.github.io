@@ -1,0 +1,30 @@
+* {
+  margin:0px; padding:0px;
+}
+
+#list {
+  width: 100%;
+  -webkit-column-width: 236px;
+  -webkit-column-rule: 0px outset #fff;
+  -webkit-transition: all 1.7s ease;
+}
+#list .grid {
+  width: 236px;
+  min-height: 100px;
+  padding: 15px 10px;
+  margin: 20px 10px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+#list .grid .imgholder {
+  position: relative;
+  text-align: center;
+}
+#list .grid .imgholder:hover {
+  opacity: .9;
+  filter: blur(0px) grayscale(1);
+}
+img {
+  width: 220px;
+  border-radius: 8px;
+}
