@@ -5,23 +5,41 @@ body {
 }
 
 h1 {
-  color: lightseagreen;
+  color: ;
 }
 
-p {
-  color: lightcoral;
+input {
+  background-color: linen;
   font-size: 28px;
-}
-
-button {
-  background: #4aca6d;
-  font-size: 14px;
-  color: #fff;
+  color: lightseagreen;
+  width: 250px;
   vertical-align: middle;
   text-align: center;
-  width: 78px;
-  height: 29px;
+  border: 0;
+  text-decoration: none;
+  transition: color 1.5s;
+  -moz-transition: color 1.5s;
+  -webkit-transition: color 1.5s;
+  -o-transition: color 1.5s;
+}
+
+input:hover {
+  font-size: 28px;
+  color: lightcoral;
+  width: 250px;
+  vertical-align: middle;
+  text-align: center;
   cursor: pointer;
+}
+
+#id {
+  font-size: 16px;
+  vertical-align: middle;
+  height: 29px;
+}
+
+a {
+  text-decoration: none;
 }
 
 iframe {

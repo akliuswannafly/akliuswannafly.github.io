@@ -5,13 +5,13 @@
     <script type="text/javascript" src="./test.js"></script>
   </head>
   <body>
-    <h1>Give me a number!</h1>
-    <p id="roll">
-      Ready!
-    </p>
-    <button type="button" onclick="myRandom()">Roll!</button>
+    <span>
+      <input type="button" value="Give me a number!" onmouseover="this.value='Roll!'" onmouseout="this.value='Give me a number!'" onclick="myRandom()" />
+      <span id="roll"></span>
+    </span>
     <hr />
     <a href="http://akliuswannafly.win/pages/page_a.html" target="i_a">Page A</a>
+    |
     <a href="http://akliuswannafly.win/pages/page_b.html" target="i_b">Page B</a>
     <hr />
     <iframe name="i_a"></iframe>
