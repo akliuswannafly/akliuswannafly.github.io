@@ -1,0 +1,73 @@
+body {
+  background-color: linen;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0;
+  height: auto;
+}
+
+.navbar {
+  text-align: center;
+  background-color: #294E80;
+  display: block !important;
+  overflow: visible !important;
+  height: auto !important;
+  font-size: 10px;
+  font-family: "wf_segoe-ui_normal", Verdana, Geneva, Tahoma, sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1024;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+}
+.navbar .center-nav {
+  display: inline-block;
+  float: none;
+  color: white;
+  margin: 0;
+  list-style: none;
+}
+.navbar .center-nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 10px;
+}
+.navbar a:hover {
+  color: #FFA700;
+}
+
+.main {
+  width: 100%;
+  min-height: 1200px;
+  max-height: 3600px;
+  margin-top: 60px;
+}
+
+.signature {
+  width: 100%;
+  background-color: #0b2f3d;
+}
+.signature .center-sign {
+  display: inline-block;
+  color: #a4b3cd;
+  width: 1140px;
+  font-size: 10px;
+  line-height: 20px;
+  box-sizing: content-box;
+  margin: 0;
+  padding: 15px 0;
+}
+.signature .center-sign .sign-left {
+  width: 60%;
+  float: left;
+  text-align: right;
+}
+.signature .center-sign .sign-right {
+  width: 40%;
+  float: left;
+  text-align: left;
+}
