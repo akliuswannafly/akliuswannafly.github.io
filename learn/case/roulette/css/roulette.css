@@ -1,0 +1,39 @@
+table.game {
+  background-color: papayawhip;
+  margin: auto;
+  margin-top: 50px;
+}
+table.game tr td {
+  width: 100px;
+  height: 100px;
+}
+table.game tr td.center {
+  width: 500px;
+  height: 100px;
+  text-align: center;
+}
+table.game tr td.center a {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  border-radius: 3px;
+  background: steelblue;
+  line-height: 40px;
+  margin: auto;
+  color: white;
+  font-family: 'Microsoft Yahei';
+}
+table.game tr td.center a:hover {
+  background: navy;
+}
+
+div.target {
+  background: url(../images/target.png);
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}

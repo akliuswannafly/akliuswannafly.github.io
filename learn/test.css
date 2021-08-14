@@ -1,0 +1,44 @@
+input {
+  background-color: linen;
+  font-size: 28px;
+  color: lightseagreen;
+  width: 250px;
+  vertical-align: middle;
+  text-align: center;
+  border: 0;
+  text-decoration: none;
+  transition: color 1.5s;
+  -moz-transition: color 1.5s;
+  -webkit-transition: color 1.5s;
+  -o-transition: color 1.5s;
+}
+
+input:hover {
+  font-size: 28px;
+  color: lightcoral;
+  width: 250px;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+}
+
+#id {
+  font-size: 16px;
+  vertical-align: middle;
+  height: 29px;
+}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 50%;
+  float: left;
+  border: 2px solid;
+  resize: both;
+  overflow: auto;
+}
