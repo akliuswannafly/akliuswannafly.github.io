@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+  background-color: seashell;
+  font-family: Georgia, Palatino, serif;
+}
+h1 {
+  color: peru;
+}
+h3 {
+  color: cadetblue;
+}
+h4 {
+  color: peru;
+}
+.image {
+  width: 480px;
+}
+.introduce {
+  color: green;
+}
+.ingredient {
+  color: black;
+}
+.method {
+  color: black;
+}
