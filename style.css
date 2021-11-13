@@ -56,3 +56,15 @@ nav a {
 a:hover {
   color: #f44336;
 }
+
+/*碎屑飘扬*/
+/*.flake {*/
+  /*width: 2px;*/
+  /*height: 2px;*/
+  /*border: firebrick 1px solid;*/
+  /*position: absolute;*/
+/*}*/
+
+canvas {
+  position: fixed;
+}
