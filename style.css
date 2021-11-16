@@ -50,7 +50,17 @@ nav a {
   color: bisque;
   border: 3px solid;
   border-radius: 50%;
-  width: 10%
+  width: 10%;
+}
+
+.core:hover {
+  font-size: 55px;
+  transition: font-size 1s ease;
+}
+
+.core:hover hr {
+  width: 30%;
+  transition: width .5s linear;
 }
 
 .timer {
@@ -63,6 +73,10 @@ nav a {
   width: 60px;
   display: inline-block;
   text-align: center;
+}
+
+.timer span:hover {
+  color: gold;
 }
 
 a:hover {
