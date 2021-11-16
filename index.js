@@ -146,3 +146,12 @@ Particle.prototype = {
         this.color = color[~~(Math.random() * 8)];
     }
 };
+
+var period = document.getElementById("period");
+var startTime = new Date().getTime();
+var counter = function() {
+    var currTime = new Date().getTime();
+    period.textContent = ((currTime - startTime)/1000).toFixed(1);
+    window.requestAnimationFrame(counter);
+};
+counter();

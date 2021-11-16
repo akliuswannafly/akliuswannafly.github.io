@@ -43,6 +43,7 @@ nav a {
   font-size: 50px;
   position: relative;
   margin-top: 50%;
+  user-select: none;
 }
 
 .core hr {
@@ -52,6 +53,17 @@ nav a {
   width: 10%
 }
 
+.timer {
+  display: inline-block;
+  text-align: right;
+  width: 70%;
+}
+
+.timer span {
+  width: 60px;
+  display: inline-block;
+  text-align: center;
+}
 
 a:hover {
   color: #f44336;
